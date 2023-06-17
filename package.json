@@ -1,0 +1,18 @@
+{
+  "name": "venomdrop-core.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss build main.css -o dist.css",
+    "build:watch": "tailwindcss build main.css -o dist.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^3.1.1",
+    "tailwindcss": "^3.3.2"
+  }
+}
